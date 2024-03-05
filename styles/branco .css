@@ -5,9 +5,6 @@
         height: 100vh;
         font-family: arial;
         place-items: center;
-        background: url(./../assets/feliznavidad.jpg); 
-        background-position: center;
-        background-size: cover;
     }
 
     .fundo{
@@ -89,7 +86,7 @@
     .vamola{
         display: grid ;
         justify-content: center;
-        align-items: center;
+        text-align: center;
     }
 
    .ash{
@@ -108,4 +105,32 @@
 .texto2{
     display: flex;
     align-items: center;
+}
+footer{
+    background-color: yellow;
+    text-align: center;
+    justify-content: space-around;
+    display: grid;
+    margin-top: 140px;
+}
+
+@media(max-width: 700px){
+
+    header{
+        width: 700px;
+    }
+}
+
+@media(max-width: 700px){
+
+    main{
+        width: 700px;
+    }
+}
+
+@media(max-width: 700px){
+
+    footer{
+        width: 700px;
+    }
 }
