@@ -6,37 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./../styles/branco .css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    <header>
+    <header class="container">
+        
         <img class="poke" src="./../assets/pokebola.png" alt="">
-        <div class="topo">
-        <input type="text" placeholder="Pesquisar" id="user">
-        </div>
+        <div class="junto">
+        <input type="text" placeholder="Pesquisar" class="search-input">
+       <button> <span class="material-symbols-outlined search-button">
+            search
+            </span></button>
+   </div>   
     </header>
    
 
     <main>
         <div class="corpo"> 
             <br><br>
+           
+            <div class="texto">
+                <div class="imgg">
             <img class="ash" src="./../assets/pessoas.jpg" alt="">
-            <h1>O que é pokemon?</h1>
-            <br>
-            <p>Pokémon é uma série de jogos eletrônicos desenvolvidos pela Game Freak e publicados pela Nintendo como parte da franquia de mídia Pokémon. 
-            Lançado pela primeira vez em 1996 no Japão para o console Game Boy, a principal série de jogos de RPGs, que continuou em cada geração em portáteis da Nintendo.
+           </div>
+           <div class="vamola">
+            <h1>O que é Pokemon</h1>
+            <br><br>
+            <p>Pokémon é uma série de jogos eletrônicos desenvolvidos pela Game Freak e publicados pela Nintendo como parte da franquia de mídia Pokémon.
+            Lançado pela primeira vez em 1996 no Japão para o console Game Boy, 
+            a principal série de jogos de RPGs, que continuou em cada geração em portáteis da Nintendo.
             </p>
-            <hr>
         </div>
-    </main>
-
+           </div>
+        </div>
+        <hr>
+        <div class="texto2">
+            <img class="pokenormal" src="./../assets/How-to-draw-a-pokeball-tutorial-drawing.webp" alt="">
+            <p>As PokéBolas são itens fundamentais na jornada de um treinador, já que é através delas que se consegue capturar um Pokémon. Inicialmente, 
+               as Poké Bolas eram feitas das Bolotas de Carvalho (Apricorns), sendo que cada uma tinha uma propriedade especial, dependendo do fruto usado para fazê-la.</p>
+           </div>
+           <hr>
+           <section class="pokemon">
+        </section>
+        <span class="error">Not Found!</span>
+      </main>
     <footer>
         <div class="voltar">
-            <p>Voltar Para Cima</p>
             <hr>
+            <p>Voltar Para Cima</p>
+            
         </div>
 
 
     </footer>
-    
+    <script src="./../js/textar.js"></script>
 </body>
 </html>
